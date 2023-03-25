@@ -1,0 +1,36 @@
+.productDetails {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.productDetails__info {
+    padding-left: 20px
+}
+
+.productDetails__info > button {
+    background: #ff9f00;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.productDetails__image {
+    object-fit: contain;
+    width: 400px;
+    height: 280px;
+  }
+
+.productDetails__rating {
+    display: flex;
+  }
+
+.productDetails__title {
+    font-size: 17px;
+    font-weight: 800;
+}
+ul {
+    list-style-type: none;
+  }
