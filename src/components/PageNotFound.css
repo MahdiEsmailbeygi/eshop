@@ -5,6 +5,7 @@ margin: auto;
 background-color: red;
 padding: 45px;
 font-weight: bold;
+margin-top: 100px;
 }
 .notFound h1{
     color: black;

@@ -12,7 +12,7 @@ function Checkout() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div >
+    <div className='mt-5' >
       <img src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
         alt="checkout__ad" className="img-fluid " />
       <div className="p-1 fs-4 fw-bold bg-info bg-opacity-10 border border-info border-start-0 rounded-end">

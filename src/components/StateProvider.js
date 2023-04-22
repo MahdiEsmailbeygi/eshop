@@ -1,5 +1,6 @@
 import React, { useEffect, useState, createContext, useContext } from "react";
 
+// i want to change these implementation to redux?
 
 //Selector
 export const getBasketTotal = (basketProducts) => {

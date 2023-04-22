@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Header from './component/Header';
-import HomePage from './component/HomePage';
-import Checkout from './component/Checkout';
+import Header from './components/Header';
+import HomePage from './components/HomePage';
+import Checkout from './components/Checkout' ;
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { StateProvider } from './component/StateProvider';
-import Login from './component/Login';
-import ProductDetails from './component/ProductDetails';
-import PageNotFound from './component/PageNotFound';
-import Footer from './component/Footer';
+import { StateProvider } from './components/StateProvider';
+import Login from './components/Login';
+import ProductDetails from './components/ProductDetails';
+import PageNotFound from './components/PageNotFound';
+import Footer from './components/Footer';
 function App() {
   return (
     <BrowserRouter>
