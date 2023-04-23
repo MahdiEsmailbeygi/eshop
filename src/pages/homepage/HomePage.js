@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import Product from './Product';
-import { StateContext } from './StateProvider';
-import ControlledCarousel from './Carousel';
+import Product from '../../components/Product';
+import { StateContext } from '../../components/StateProvider';
+import ControlledCarousel from '../../components/carousel/Carousel';
 
 function HomePage() {
   const { products } = useContext(StateContext)

@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './ProductDetails.css';
-import { StateContext } from './StateProvider';
+import { StateContext } from '../../components/StateProvider';
 import { useParams } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
 

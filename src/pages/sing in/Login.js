@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Login.css'
 import { Link, useNavigate } from "react-router-dom";
 import StorefrontIcon from '@mui/icons-material/Storefront';
-import { auth } from './firebase';
+import { auth } from '../../firebase/firebase';
 
 function Login() {
     const navigate = useNavigate();

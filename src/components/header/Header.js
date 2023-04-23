@@ -2,7 +2,7 @@ import React, { useState, useContext } from 'react';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import StorefrontIcon from '@mui/icons-material/Storefront';
 import { Link } from 'react-router-dom';
-import { StateContext } from './StateProvider';
+import { StateContext } from '../StateProvider';
 import { Button, Container, Form, Nav, Navbar } from 'react-bootstrap';
 import './Header.css';
 

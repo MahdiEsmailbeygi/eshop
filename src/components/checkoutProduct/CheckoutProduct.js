@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './CheckoutProduct.css';
-import {StateContext} from './StateProvider';
+import {StateContext} from '../StateProvider';
 
 
 function CheckoutProduct({ id, title, price, rating, image }) {

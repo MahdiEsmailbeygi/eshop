@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
-import CheckoutProduct from './CheckoutProduct';
-import Subtotal from './Subtotal';
-import { StateContext } from './StateProvider';
+import CheckoutProduct from '../../components/checkoutProduct/CheckoutProduct';
+import Subtotal from '../../components/subtotal/Subtotal';
+import { StateContext } from '../../components/StateProvider';
 import './Checkout.css';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
