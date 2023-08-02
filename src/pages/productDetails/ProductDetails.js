@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './ProductDetails.css';
-import { StateContext } from '../../components/StateProvider';
+import { StateContext } from '../../Containers/StateProvider';
 import { useParams } from 'react-router-dom';
 import Accordion from 'react-bootstrap/Accordion';
 
@@ -40,7 +40,7 @@ function ProductDetails({ id }) {
               <div className="productDetails__rating ">
                 {Array(product.rating)
                   .fill()
-                  .map((_, i) => (<div key={i}><p>⭐️</p></div>))}
+                  .map((_, i) => (<div key={i}><span role="img" aria-label="star">⭐️</span> </div>))}
               </div>
               <br />
               <h3>Attributes this item</h3>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Subtotal.css';
 import CurrencyFormat from 'react-currency-format';
-import {StateContext ,getBasketTotal  } from '../StateProvider';
+import {StateContext ,getBasketTotal  } from '../../Containers/StateProvider';
 import { useContext } from 'react';
 
 function Subtotal() {

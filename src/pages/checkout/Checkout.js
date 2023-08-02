@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
-import CheckoutProduct from '../../components/checkoutProduct/CheckoutProduct';
-import Subtotal from '../../components/subtotal/Subtotal';
-import { StateContext } from '../../components/StateProvider';
+import CheckoutProduct from '../../components/CheckoutProduct/CheckoutProduct';
+import Subtotal from '../../components/Subtotal/Subtotal';
+import { StateContext } from '../../Containers/StateProvider';
 import './Checkout.css';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -12,7 +12,7 @@ function Checkout() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div className='mt-5' >
+    <div >
       <img src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
         alt="checkout__ad" className="img-fluid " />
       <div className="p-1 fs-4 fw-bold bg-info bg-opacity-10 border border-info border-start-0 rounded-end">
@@ -49,4 +49,4 @@ function Checkout() {
     </div >
   )
 }
-export default Checkout
+export default Checkout;

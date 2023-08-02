@@ -14,7 +14,9 @@ function Product({ id, title, price, rating, image }) {
                     <Card.Title className="text-center" >{title}</Card.Title>
                     <Card.Title className='d-flex text-center justify-content-center'>  {Array(rating)
                         .fill()
-                        .map((_, i) => (<div key={i}><p>⭐️</p></div>))}</Card.Title>
+                        .map((_, i) => (
+                        <div key={i}><span role="img" aria-label="star">⭐️</span> </div>))}
+                        </Card.Title>
                     <Card.Title className="text-center " ><h4>{price} <small>$</small></h4></Card.Title>
                     <div className=' d-flex'>
                     <Button className="mx-auto" onClick={() => addToBasket(id)} variant="warning">Add to Basket</Button></div>

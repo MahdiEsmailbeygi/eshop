@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
-import Product from '../../components/Product';
-import { StateContext } from '../../components/StateProvider';
-import ControlledCarousel from '../../components/carousel/Carousel';
+import Product from '../../Containers/Product';
+import { StateContext } from '../../Containers/StateProvider';
+import ControlledCarousel from '../../components/Carousel/Carousel';
 
 function HomePage() {
   const { products } = useContext(StateContext)
@@ -22,6 +22,26 @@ function HomePage() {
           ))}
         </div>
       </div>
+      {/* <nav aria-label="Page navigation example">
+  <ul className="pagination justify-content-center">
+    <li className="page-item disabled">
+      <Link className="page-link" to="#" tabindex="-1">Previous</Link>
+    </li>
+    <li className="page-item"><Link className="page-link" to="#">1</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">2</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">3</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">4</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">5</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">6</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">7</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">8</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">9</Link></li>
+    <li className="page-item"><Link className="page-link" to="#">10</Link></li>
+    <li className="page-item">
+      <Link className="page-link" to="#">Next</Link>
+    </li>
+  </ul>
+</nav> */}
     </div>
   )
 }

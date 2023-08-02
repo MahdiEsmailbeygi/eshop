@@ -1,7 +1,9 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import './Footer.css'
-function Footer() {
+import React,{Component} from 'react';
+import {Link} from 'react-router-dom';
+import './Footer.css';
+
+export default class Footer extends Component {
+    render(){
     return (
         <div className="footer-container">
             <section className="footer-subscription">
@@ -49,5 +51,5 @@ function Footer() {
         </div>
     )
 }
+    }
 
-export default Footer

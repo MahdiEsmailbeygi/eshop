@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import './CheckoutProduct.css';
-import {StateContext} from '../StateProvider';
+import {StateContext} from '../../Containers/StateProvider';
 
 
 function CheckoutProduct({ id, title, price, rating, image }) {
@@ -19,7 +19,7 @@ function CheckoutProduct({ id, title, price, rating, image }) {
                 <div className="checkoutProduct__rating ">
                 {Array(rating)
                   .fill()
-                  .map((_, i) => (<div key={i}><p>⭐️</p></div>))}
+                  .map((_, i) => (<div key={i}><span role="img" aria-label="star">⭐️</span> </div>))}
                 </div>
                 <button onClick={()=>removeFromBasket(id) } >Remove from Basket</button>
             </div>
